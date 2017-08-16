@@ -580,8 +580,8 @@ CHOOSER
 125
 show-labels-as
 show-labels-as
-"none" "player name" "player energy" "energy ranges" "player energy:name"
-1
+"none" "player energy" "energy ranges"
+0
 
 MONITOR
 77
@@ -680,7 +680,7 @@ PLOT
 320
 345
 470
-Energy Levels of Bugs
+Population Size
 energy level
 bugs
 0.0
@@ -741,7 +741,7 @@ TEXTBOX
 10
 345
 91
-Look for your turtle in the world on the right hand side! It'll have the color that you see below and the name you entered when you joined the model!
+Look for your turtle in the world on the right hand side! It'll have the color that you see below.
 11
 0.0
 1
@@ -1046,7 +1046,7 @@ PLOT
 320
 345
 470
-Energy Levels of Bugs
+Population Size
 energy level
 bugs
 0.0
@@ -1103,7 +1103,7 @@ TEXTBOX
 10
 345
 91
-Look for your turtle in the world on the right hand side! It'll have the color that you see below and the name you entered when you joined the model!
+Look for your turtle in the world on the right hand side! It'll have the color that you see below.
 11
 0.0
 1
