@@ -60571,13 +60571,12 @@ to send-this-players-info ;; player procedure
     [set message-to-send (word  place  out-of any-ties)]
     [set message-to-send "not currently in this competition"]
   hubnet-send user-id "Your Place in the Competition" message-to-send
-
+  hubnet-send "time remaining" time-remaining
 end
 
 
 to send-all-info     ;;send common info to this client
   ask players [send-this-players-info]
-  hubnet-broadcast "time remaining" time-remaining
 end
 
 
