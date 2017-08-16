@@ -60571,7 +60571,7 @@ to send-this-players-info ;; player procedure
     [set message-to-send (word  place  out-of any-ties)]
     [set message-to-send "not currently in this competition"]
   hubnet-send user-id "Your Place in the Competition" message-to-send
-  hubnet-send "time remaining" time-remaining
+  hubnet-send user-id "time remaining" time-remaining
 end
 
 
@@ -60709,7 +60709,7 @@ amount-grassland
 amount-grassland
 0
 100
-100.0
+0.0
 1
 1
 %
@@ -60724,7 +60724,7 @@ length-competition
 length-competition
 0
 3000
-500.0
+0.0
 100
 1
 NIL
@@ -60855,7 +60855,7 @@ sprout-delay-time
 sprout-delay-time
 0
 200
-200.0
+0.0
 50
 1
 NIL
