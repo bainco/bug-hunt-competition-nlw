@@ -146,7 +146,6 @@ to go
     set time-remaining (length-competition - ticks)
   ]
   if ticks = length-competition  [
-    display
     set competition-status "Over"
     if time-remaining <= 0 [set time-remaining 0]
     send-all-info
@@ -461,9 +460,9 @@ NIL
 
 PLOT
 0
-420
+535
 400
-540
+655
 Population Size
 time
 bugs
@@ -479,9 +478,9 @@ PENS
 
 MONITOR
 0
-375
+490
 75
-420
+535
 # bugs
 count bugs
 3
@@ -512,7 +511,7 @@ amount-grassland
 amount-grassland
 0
 100
-0.0
+50.0
 1
 1
 %
@@ -527,7 +526,7 @@ length-competition
 length-competition
 0
 3000
-0.0
+1500.0
 100
 1
 NIL
@@ -559,7 +558,7 @@ PLOT
 0
 240
 400
-360
+470
 Energy Levels of Bugs
 energy level
 bugs
@@ -585,9 +584,9 @@ show-labels-as
 
 MONITOR
 77
-375
+490
 174
-420
+535
 bugs that died
 dead-bugs
 17
@@ -596,9 +595,9 @@ dead-bugs
 
 MONITOR
 176
-375
+490
 273
-420
+535
 # offspring
 offspring-bugs
 17
@@ -629,9 +628,9 @@ include-clients-as-bugs?
 
 MONITOR
 320
-360
+475
 400
-405
+520
 x-interval
 x-interval-histogram
 17
