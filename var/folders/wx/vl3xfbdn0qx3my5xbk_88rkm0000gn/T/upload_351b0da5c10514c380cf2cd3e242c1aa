@@ -675,25 +675,6 @@ Your Place in the Competition
 1
 11
 
-PLOT
-10
-320
-345
-470
-Population Size
-energy level
-bugs
-0.0
-500.0
-0.0
-10.0
-true
-true
-"" ""
-PENS
-"bugs" 20.0 1 -16777216 true "" ""
-
-
 MONITOR
 10
 120
@@ -704,25 +685,6 @@ time remaining
 0
 1
 11
-
-PLOT
-10
-170
-345
-320
-Population Size
-time
-bugs
-0.0
-1000.0
-0.0
-10.0
-true
-true
-"" ""
-PENS
-"bugs" 1.0 0 -16777216 true "" ""
-
 
 INPUTBOX
 10
@@ -1041,24 +1003,6 @@ NIL
 3
 1
 
-PLOT
-10
-320
-345
-470
-Population Size
-energy level
-bugs
-0.0
-500.0
-0.0
-10.0
-true
-true
-"" ""
-PENS
-"bugs" 20.0 1 -16777216 true "" ""
-
 MONITOR
 10
 120
@@ -1068,24 +1012,6 @@ time remaining
 NIL
 0
 1
-
-PLOT
-10
-170
-345
-320
-Population Size
-time
-bugs
-0.0
-1000.0
-0.0
-10.0
-true
-true
-"" ""
-PENS
-"bugs" 1.0 0 -16777216 true "" ""
 
 INPUTBOX
 10
